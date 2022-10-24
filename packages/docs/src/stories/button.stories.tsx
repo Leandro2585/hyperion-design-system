@@ -1,18 +1,20 @@
+import { Button, ButtonProps } from '@hyperion-ui/react/dist'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@hyperion-ui/react'
 
 export default {
   title: 'Button',
   component: Button,
-} as Meta
-
-export const Primary: StoryObj = {
   args: {
-    children: 'Send',
+    children: 'Enviar',
   },
+} as Meta<ButtonProps>
+
+export const Small: StoryObj<ButtonProps> = {
+  args: {},
 }
-export const Secondary: StoryObj = {
+
+export const Large: StoryObj<ButtonProps> = {
   args: {
-    children: 'Receive',
+    size: 'large',
   },
 }

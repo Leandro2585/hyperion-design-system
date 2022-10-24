@@ -5,30 +5,29 @@
   "main": "index.js",
   "scripts": {
     "dev": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build": "build-storybook"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": "Leandro Real <leo.real2585@gmail.com>",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@hyperion-ui/eslint-config": "*",
-    "@hyperion-ui/react": "*",
-    "@hyperion-ui/tokens": "*",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
     "@storybook/addon-links": "^6.5.12",
-    "@storybook/builder-vite": "^0.2.3",
+    "@storybook/builder-vite": "^0.2.4",
+    "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
-    "vite": "^3.1.6"
+    "vite": "^3.1.8"
   },
   "dependencies": {
-    "@rollup/pluginutils": "^4.2.1",
-    "@storybook/react": "^6.5.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@hyperion-ui/react": "*",
+    "@hyperion-ui/tokens": "*",
+    "@hyperion-ui/eslint-config": "*"
   }
 }

@@ -24,10 +24,12 @@
     "vite": "^3.1.8"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@hyperion-ui/eslint-config": "*",
     "@hyperion-ui/react": "*",
     "@hyperion-ui/tokens": "*",
-    "@hyperion-ui/eslint-config": "*"
+    "@hyperion-ui/ts-config": "*",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

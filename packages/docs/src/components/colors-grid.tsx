@@ -1,7 +1,7 @@
 import { colors } from '@hyperion-ui/tokens'
 import { getContrast } from 'polished'
 
-export function ColorsGrid() {
+export const ColorsGrid = () => {
   return Object.entries(colors).map(([key, color]) => (
     <div key={key} style={{ backgroundColor: color, padding: '2rem' }}>
       <div

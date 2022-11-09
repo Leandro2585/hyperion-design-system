@@ -28,6 +28,7 @@
     "@hyperion-ui/react": "*",
     "@hyperion-ui/tokens": "*",
     "@hyperion-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^6.5.13",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",

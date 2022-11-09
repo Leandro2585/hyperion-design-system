@@ -21,3 +21,5 @@ export const MultiStep = ({ totalSteps, currentStep = 1 }: MultiStepProps) => {
     </MultiStepContainer>
   )
 }
+
+MultiStep.displayName = 'MultiStep'

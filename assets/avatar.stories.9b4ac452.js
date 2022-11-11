@@ -1,0 +1,2 @@
+import{A as t}from"./index.5506b434.js";import"./index.5d17b4b1.js";import"./iframe.aa406354.js";import"./index.eb318b1f.js";import"./jsx-runtime.446c56b2.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/leandro2585.png",alt:"Leandro Real"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=avatar.stories.9b4ac452.js.map

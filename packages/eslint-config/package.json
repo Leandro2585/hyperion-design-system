@@ -1,6 +1,7 @@
 {
   "name": "@hyperion-ui/eslint-config",
   "license": "MIT",
+  "version": "1.0.0",
   "preview": true,
   "main": "index.js",
   "devDependencies": {
